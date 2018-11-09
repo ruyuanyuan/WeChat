@@ -1,0 +1,23 @@
+<!--logs.wxml-->
+<view class="page">
+    <view class='page_header'>
+         <image class='appIcon' src="https://o97mkvfjm.qnssl.com/logo.png"></image>
+    </view>
+    <form class='page_form'>
+        <view class="section section_pag">
+          <input placeholder="邮箱" bindinput="bindEmailInput" auto-focus/>
+        </view>
+        <view class="section section_pag">
+          <input placeholder="密码" bindinput="bindPasswordInput" />
+        </view>
+        <view class="section section_btn">
+          <button type="primary" bindtap='loginEvent' > 登录 </button>
+        </view>
+        <view class="section section_btn">
+          <button type="primary" > 注册 </button>
+        </view>
+        <view class="section section_forget">
+         <label>忘记密码</label>
+        </view>
+    </form>
+</view>

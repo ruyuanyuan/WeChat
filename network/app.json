@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/usercenter/usercenter",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "咕咕监控",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/icon_speed.png",
+        "selectedIconPath": "images/icon_speed_HL.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "images/icon_seo.png",
+        "selectedIconPath": "images/icon_seo_HL.png"
+      },
+      {
+        "pagePath": "pages/usercenter/usercenter",
+        "text": "日志",
+        "iconPath": "images/icon_account.png",
+        "selectedIconPath": "images/icon_account_HL.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

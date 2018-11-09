@@ -1,0 +1,25 @@
+.page_header{
+  text-align: center;
+  padding:40rpx;
+}
+.page_header .appIcon{
+  width:200rpx;
+  height:200rpx;
+}
+.page_form .section_pag{
+  width:100%;
+  border-bottom: 1px solid #666;
+  padding:30rpx 40rpx;
+  font-size:0.8rem;
+}
+.page_form .section_btn{
+  padding:0 40rpx;
+  margin-top:40rpx;
+}
+.page_form .section_forget{
+  width:100%;
+  text-align: right;
+  padding: 20rpx 40rpx;
+  font-size: 12px;
+  box-sizing: border-box;
+}
